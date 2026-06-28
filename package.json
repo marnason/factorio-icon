@@ -1,0 +1,16 @@
+{
+  "name": "factorio-icon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build:icon": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.2",
+    "zopflipng-bin": "7.1.0"
+  }
+}
